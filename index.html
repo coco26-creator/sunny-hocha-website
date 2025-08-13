@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sunny Hocha | Premium Brandy, Whisky & Wine</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Sunny Hocha – Premium brandy, whisky, and wine crafted from the finest ingredients. Experience excellence in every drop." />
+  <meta name="keywords" content="premium brandy, luxury whisky, fine wine, Sunny Hocha, aged spirits" />
+  <meta name="author" content="Sunny Hocha" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Sunny Hocha | Premium Brandy, Whisky & Wine" />
+  <meta property="og:description" content="Exquisite spirits crafted for the discerning palate." />
+  <meta property="og:image" content="https://www.sunnyhocha.com/hero.jpg" />
+  <meta property="og:url" content="https://www.sunnyhocha.com" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sunny Hocha | Premium Brandy, Whisky & Wine" />
+  <meta name="twitter:description" content="Luxury spirits with unmatched quality and taste." />
+  <meta name="twitter:image" content="https://www.sunnyhocha.com/hero.jpg" />
+
+  <!-- Styles -->
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #0a0a0a;
+      color: #e0e0e0;
+      line-height: 1.8;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Header */
+    header {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 20px 0;
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #D4AF37;
+    }
+
+    /* Hero Section */
+    .hero {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1555244717-2618e5bf0214?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 1;
+    }
+
+    .hero-content {
+      z-index: 2;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #D4AF37;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 30px;
+      background: #D4AF37;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+      transition: all 0.3s;
+    }
+
+    .btn:hover {
+      background: #f0d878;
+      transform: scale(1.05);
+    }
+
+    /* About Section */
+    .about {
+      padding: 100px 0;
+      text-align: center;
+      background-color: #111;
+    }
+
+    .about h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #D4AF37;
+    }
+
+    .about p {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 18px;
+      color: #ccc;
+      padding: 0 20px;
+    }
+
+    /* Contact Section */
+    .contact {
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #D4AF37;
+    }
+
+    .contact p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .contact a {
+      color: #D4AF37;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 30px 0;
+      color: #aaa;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #D4AF37;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Sunny Hocha</div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Sunny Hocha</h1>
+      <p>Premium brandy, whisky, and wine crafted from the finest ingredients. Experience excellence in every drop.</p>
+      <a href="#about" class="btn">Discover More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        Our company specializes in premium brandy, whisky, and wine, offering an exquisite selection crafted from the finest ingredients. 
+        We are dedicated to delivering exceptional quality and taste, ensuring a memorable experience for connoisseurs and enthusiasts alike. 
+        Discover the art of fine spirits with us.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:info@sunnyhocha.com">info@sunnyhocha.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Sunny Hocha. All rights reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+
+</body>
+</html>
